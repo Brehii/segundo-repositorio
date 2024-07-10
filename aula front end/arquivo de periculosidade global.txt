@@ -1,0 +1,313 @@
+
+$ git config --global user.name "brehii"
+cdgit 
+$ git config --global user.email "brendo159@gmail.com"
+
+$ git config --global user.email brendo159@gmail.com
+
+$ cd Documents/
+
+$ mkdir brendo
+
+
+gir
+$ cd brendo/
+
+aluno@LAB-E04-26 MINGW64 ~/Documents/brendo
+$ git clone https://github.com/Brehii/primeiro-repositorio.git~
+Cloning into 'primeiro-repositorio.git~'...
+remote: Repository not found.
+fatal: repository 'https://github.com/Brehii/primeiro-repositorio.git~/' not found
+
+aluno@LAB-E04-26 MINGW64 ~/Documents/brendo
+$ git clone https://github.com/Brehii/primeiro-repositorio.git
+Cloning into 'primeiro-repositorio'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+aluno@LAB-E04-26 MINGW64 ~/Documents/brendo
+$ ls
+primeiro-repositorio/
+
+aluno@LAB-E04-26 MINGW64 ~/Documents/brendo
+$ cd primeiro-repositorio
+
+aluno@LAB-E04-26 MINGW64 ~/Documents/brendo/primeiro-repositorio (main)
+$ code.
+bash: code.: command not found
+
+aluno@LAB-E04-26 MINGW64 ~/Documents/brendo/primeiro-repositorio (main)
+$ code .
+
+aluno@LAB-E04-26 MINGW64 ~/Documents/brendo/primeiro-repositorio (main)
+$
+___________________________________________________________________________________________________________________________________________
+aula 2
+
+aluno@LAB-E04-26 MINGW64 /c/users/aluno/.ssh
+$ ssh-keygen -t ed25519 -C "brendo159@gmail.com"
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (/c/Users/aluno/.ssh/id_ed25519):
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/aluno/.ssh/id_ed25519
+Your public key has been saved in /c/Users/aluno/.ssh/id_ed25519.pub
+The key fingerprint is:
+SHA256:m94JwqLDdeb16KoztAi3gN3ccHuIvYzwDRchFTv/qHk brendo159@gmail.com
+The key's randomart image is:
++--[ED25519 256]--+
+|     .o.         |
+|    . ..         |
+|     .o.         |
+|    . oo         |
+|.. o * +S        |
+|+ + B.O o=       |
+| = B.@o+=o.      |
+|  =.*.==Eo..     |
+|  ...+++o o      |
++----[SHA256]-----+
+
+aluno@LAB-E04-26 MINGW64 /c/users/aluno/.ssh
+$ ls
+id_ed25519  id_ed25519.pub  id_rsa  id_rsa.pub
+
+aluno@LAB-E04-26 MINGW64 /c/users/aluno/.ssh
+$ cat id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC/oTUVO0/bxxHU0nlyiGp7arypmDG+W6VjfEzRP+TacGwAPBUyCkCbY0cgMSWvOPb0HvEIHkk3SsRemEa0/NkBy1nh1nxn/7heMzb8LJmaMnjIF2pNOKGeYsr1bEfV5rpwbVb6RSdqlT3ZPN1xTCQS3u+dDhfZrECMUaGJ9QLSXa9LxEYg40ISA02Kn6MKLQziSctRngallANxHHID7O+vN83985+81QFgsV55mI9N1KvcCjhQhBmONKBSAVvgAIrpwmVmOHxi6VIDhkwKBcJA4Ja7kEuiG7fzqVxxcx8CjTMcyZHNkWqhqPncjpIfLzZmaA2w+M0nAeSSxaLDrAhzhW1LLyqq8tmm53BUXagKvEDbEPrspauy9XnHmmw5zH+fUrn41jYzcfBf0NVSLkyQKv1jsb6Rl7CRMF7vEpGme9oOq449eY2NrIqAtJ88tSHdjVWed5GcdpFMgjhjufHto0b2SyUY/98IAhlsC6fH6fd3jww/roG6wEyh/ecwqCCOHoQJoYbgWptR4U/Y71Gwu0BccpeT9Q4G+TWKmzzcJ8jlTWN8JlTE6BYIzayjdPxY/Y6CXnNGr1A6xYY8Pgt6/BWuCdsLbNbVlNPlJxI+ir+BShktv3j3Kj+4eI8phgxI0Vu/RfYm7uesoKvxH/LRtZx7338hBKbV4Ngds7jTNw== your_email@example.com
+
+aluno@LAB-E04-26 MINGW64 ~
+$ cd ~
+
+aluno@LAB-E04-26 MINGW64 ~
+$ ls
+'Ambiente de Impressão'@   NTUSER.DAT
+'Ambiente de Rede'@        NTUSER.DAT{f7fc160f-f3b2-11ee-a394-3024a9fbad6d}.TM.blf
+ AppData/                  NTUSER.DAT{f7fc160f-f3b2-11ee-a394-3024a9fbad6d}.TMContainer00000000000000000001.regtrans-ms
+'Configurações Locais'@    NTUSER.DAT{f7fc160f-f3b2-11ee-a394-3024a9fbad6d}.TMContainer00000000000000000002.regtrans-ms
+ Contacts/                 OneDrive/
+ Cookies@                  Pictures/
+'Dados de Aplicativos'@    Postman/
+ Desktop/                  Recent@
+ Documents/               'Saved Games'/
+ Downloads/                Searches/
+ Favorites/                SendTo@
+ IntelGraphicsProfiles/    Videos/
+ Links/                   'comando git.txt'
+'Menu Iniciar'@            ntuser.dat.LOG1
+'Meus Documentos'@         ntuser.dat.LOG2
+ Modelos@                  ntuser.ini
+ Music/
+
+aluno@LAB-E04-26 MINGW64 ~
+$ cd documents/
+
+aluno@LAB-E04-26 MINGW64 ~/documents
+$ ls
+ 2024.pdf                                                                      'Minhas fontes de dados'/
+'A IMPORTÂNCIA DO TRABALHO EM EQUIPE - BEATRIZ MEIRELES FERREIRA SANTOS.docx'  'Modelos Personalizados do Office'/
+'ATIVIDADE 2 .png'                                                             'Pasta1 atividade.xlsx'
+ Adobe/                                                                        'Pasta1 atividade.xlsx.pdf'
+ Atividade15.05.png                                                            'Praticando Fórum i.docx'
+ DbgLogs/                                                                       Sara/
+ Doc1.docx                                                                     'atividade 2.docx'
+'FluidSIM Pneumatics'/                                                          atividade.pdf
+ HunSpell/                                                                     'atv 3.2.png'
+'Luix Gabriel 2°DG.xlsx'                                                       'atv 3.png'
+'Meus Vídeos'@                                                                  brendo/
+'Minhas Imagens'@                                                               desktop.ini
+'Minhas Músicas'@                                                              '~$abalho.docx'
+
+aluno@LAB-E04-26 MINGW64 ~/documents
+$ cd primeiro-repositorio/
+bash: cd: primeiro-repositorio/: No such file or directory
+
+aluno@LAB-E04-26 MINGW64 ~/documents
+$ cd brendo/
+
+aluno@LAB-E04-26 MINGW64 ~/documents/brendo
+$ ls
+primeiro-repositorio/
+
+aluno@LAB-E04-26 MINGW64 ~/documents/brendo
+$ cd ~
+
+aluno@LAB-E04-26 MINGW64 ~
+$ cd documents/
+
+aluno@LAB-E04-26 MINGW64 ~/documents
+$ cd brendo/
+
+aluno@LAB-E04-26 MINGW64 ~/documents/brendo
+$ ls
+primeiro-repositorio/
+
+aluno@LAB-E04-26 MINGW64 ~/documents/brendo
+$ cd ..
+
+aluno@LAB-E04-26 MINGW64 ~/documents
+$ cd brendo/
+
+aluno@LAB-E04-26 MINGW64 ~/documents/brendo
+$ git clone git@github.com:Brehii/primeiro-repositorio.git
+Cloning into 'primeiro-repositorio'...
+The authenticity of host 'github.com (20.201.28.151)' can't be established.
+ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? y
+Please type 'yes', 'no' or the fingerprint: yes
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+aluno@LAB-E04-26 MINGW64 ~/documents/brendo
+$ git clone git@github.com:Brehii/primeiro-repositorio.git
+fatal: destination path 'primeiro-repositorio' already exists and is not an empty directory.
+
+aluno@LAB-E04-26 MINGW64 ~/documents/brendo
+$ rm -rf primeiro-repositorio/
+
+aluno@LAB-E04-26 MINGW64 ~/documents/brendo
+$ git clone git@github.com:Brehii/primeiro-repositorio.git
+Cloning into 'primeiro-repositorio'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+aluno@LAB-E04-26 MINGW64 ~/documents/brendo
+$ ls
+primeiro-repositorio/
+
+aluno@LAB-E04-26 MINGW64 ~/documents/brendo
+$
+Display all 5130 possibilities? (y or n)
+
+aluno@LAB-E04-26 MINGW64 ~/documents/brendo
+$ ls
+primeiro-repositorio/
+
+aluno@LAB-E04-26 MINGW64 ~/documents/brendo
+$ cd primeiro-repositorio/
+
+aluno@LAB-E04-26 MINGW64 ~/documents/brendo/primeiro-repositorio (main)
+$ git checkout -b frontEnd
+Switched to a new branch 'frontEnd'
+
+aluno@LAB-E04-26 MINGW64 ~/documents/brendo/primeiro-repositorio (frontEnd)
+$ touch index.html
+
+aluno@LAB-E04-26 MINGW64 ~/documents/brendo/primeiro-repositorio (frontEnd)
+$ ls
+README.md  index.html
+
+aluno@LAB-E04-26 MINGW64 ~/documents/brendo/primeiro-repositorio (frontEnd)
+$ git add .
+
+aluno@LAB-E04-26 MINGW64 ~/documents/brendo/primeiro-repositorio (frontEnd)
+$ git commit -m "PTIMEIRO ARQUIVO INDEX.HTML"
+[frontEnd d0a7a5f] PTIMEIRO ARQUIVO INDEX.HTML
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 index.html
+
+aluno@LAB-E04-26 MINGW64 ~/documents/brendo/primeiro-repositorio (frontEnd)
+$ GIT STATUS
+git: 'STATUS' is not a git command. See 'git --help'.
+
+aluno@LAB-E04-26 MINGW64 ~/documents/brendo/primeiro-repositorio (frontEnd)
+$ git status
+On branch frontEnd
+nothing to commit, working tree clean
+
+aluno@LAB-E04-26 MINGW64 ~/documents/brendo/primeiro-repositorio (frontEnd)
+$ git push
+fatal: The current branch frontEnd has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin frontEnd
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+aluno@LAB-E04-26 MINGW64 ~/documents/brendo/primeiro-repositorio (frontEnd)
+$ git push origin frontEnd
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 295 bytes | 295.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'frontEnd' on GitHub by visiting:
+remote:      https://github.com/Brehii/primeiro-repositorio/pull/new/frontEnd
+remote:
+To github.com:Brehii/primeiro-repositorio.git
+ * [new branch]      frontEnd -> frontEnd
+____________________________________________________________________________________________________________
+
+
+aluno@LAB-E04-26 MINGW64 ~/documents/brendo/primeiro-repositorio (frontEnd)
+$ git branch
+* frontEnd
+  main
+
+aluno@LAB-E04-26 MINGW64 ~/documents/brendo/primeiro-repositorio (frontEnd)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+aluno@LAB-E04-26 MINGW64 ~/documents/brendo/primeiro-repositorio (main)
+$ git pull origin frontEnd
+From github.com:Brehii/primeiro-repositorio
+ * branch            frontEnd   -> FETCH_HEAD
+Updating 2a3bccb..d0a7a5f
+Fast-forward
+ index.html | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 index.html
+
+aluno@LAB-E04-26 MINGW64 ~/documents/brendo/primeiro-repositorio (main)
+$ ls
+README.md  index.html
+
+aluno@LAB-E04-26 MINGW64 ~/documents/brendo/primeiro-repositorio (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+aluno@LAB-E04-26 MINGW64 ~/documents/brendo/primeiro-repositorio (main)
+$ git add .
+
+aluno@LAB-E04-26 MINGW64 ~/documents/brendo/primeiro-repositorio (main)
+$ git push origin main
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To github.com:Brehii/primeiro-repositorio.git
+   2a3bccb..d0a7a5f  main -> main
+
+aluno@LAB-E04-26 MINGW64 ~/documents/brendo/primeiro-repositorio (main)
+$ git commit -m "comentario teste"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+aluno@LAB-E04-26 MINGW64 ~/documents/brendo/primeiro-repositorio (main)
+$ git commit -m 'comentario teste'
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+aluno@LAB-E04-26 MINGW64 ~/documents/brendo/primeiro-repositorio (main)
+$ git push origin main
+Everything up-to-date
+
+aluno@LAB-E04-26 MINGW64 ~/documents/brendo/primeiro-repositorio (main)
+$
